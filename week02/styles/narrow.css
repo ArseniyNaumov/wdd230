@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap');
+
+header {
+    background-color: rgb(4, 31, 4);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rubik', Arial, sans-serif;
+    width: 100%;
+    padding: 10px;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+h2 {
+    margin-bottom: 40px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    padding: 1rem;
+}
+
+.card {
+
+    background-color: #fff;
+    max-width: 100%;
+    /* Remove the duplicated border-color and use border instead */
+    border: 2px solid rgb(25, 73, 25);
+    border-radius: 10px;
+    margin: 20px 10px 20px 10px;
+}
+
+.principleName {
+    font-family: 'Rubik', Arial, sans-serif;
+    font-size: 30px;
+    background-color: rgb(25, 73, 25);
+    color: rgb(255, 255, 255);
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.companyName {
+    font-family: 'Rubik', Arial, sans-serif;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.webLink {
+    text-align: left;
+    margin-bottom: 50px;
+    margin-left: 5px;
+    font-size: 16px;
+    font-family: 'Rubik', Arial, sans-serif;
+    font-weight: 300;
+}
+
+.webScreen {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+}
+
+.comment {
+    text-align: justify;
+    margin: 20px;
+    font-size: 18px;
+    font-family: 'Rubik', Arial, sans-serif;
+    font-weight: 300;
+}
+
+footer {
+    background-color: rgb(4, 31, 4);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rubik', Arial, sans-serif;
+    width: 100%;
+    padding: 40px;
+}
