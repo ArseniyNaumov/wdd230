@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap');
 
+body {
+    margin: 0;
+}
+
 header {
     background-color: rgb(4, 31, 4);
     color: white;
@@ -12,39 +16,34 @@ header {
     padding: 10px;
 }
 
-h1 {
-    margin-bottom: 0;
-}
-
-h2 {
-    margin-bottom: 40px;
-}
-
 main {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(calc(50% - 20px), 1fr));
+    gap: 20px;
     padding: 1rem;
+    box-sizing: border-box;
 }
 
 .card {
+    border: 3px solid rgb(19, 54, 19);
+    border-radius: 12px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
 
-    background-color: #fff;
-    max-width: 100%;
-    /* Remove the duplicated border-color and use border instead */
-    border: 2px solid rgb(25, 73, 25);
-    border-radius: 10px;
-    margin: 20px 10px 20px 10px;
 }
 
 .principleName {
     font-family: 'Rubik', Arial, sans-serif;
     font-size: 30px;
-    background-color: rgb(25, 73, 25);
+    background-color: rgb(19, 54, 19);
     color: rgb(255, 255, 255);
     width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align: center;
     margin-top: 0px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
 }
 
 .companyName {
@@ -57,7 +56,7 @@ main {
 }
 
 .webLink {
-    text-align: left;
+    text-align: center;
     margin-bottom: 50px;
     margin-left: 5px;
     font-size: 16px;
@@ -68,9 +67,11 @@ main {
 .webScreen {
     width: 100%;
     height: auto;
+    justify-content: center;
+    height: auto;
     display: block;
     margin-top: 10px;
-    margin-left: auto;
+
 }
 
 .comment {
@@ -91,4 +92,11 @@ footer {
     font-family: 'Rubik', Arial, sans-serif;
     width: 100%;
     padding: 40px;
+}
+
+@media screen and (max-width: 800px) {
+    main {
+        grid-template-columns: 1fr;
+
+    }
 }
