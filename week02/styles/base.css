@@ -95,7 +95,14 @@ footer {
     align-items: center;
     font-family: 'Rubik', Arial, sans-serif;
     width: 100%;
-    padding: 40px;
+    padding: 30px;
+}
+
+#last {
+    margin: 20px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    padding-right: 50px;
 }
 
 @media screen and (max-width: 800px) {
