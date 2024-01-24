@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap');
 
 body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     margin: 0;
 }
 
@@ -22,6 +25,7 @@ main {
     gap: 20px;
     padding: 1rem;
     box-sizing: border-box;
+    flex-grow: 1;
 }
 
 .card {
