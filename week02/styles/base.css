@@ -32,7 +32,6 @@ main {
     border: 3px solid rgb(19, 54, 19);
     border-radius: 12px;
     box-sizing: border-box;
-    margin-bottom: 20px;
 
 }
 
@@ -71,9 +70,6 @@ main {
 .webScreen {
     width: 100%;
     height: auto;
-    justify-content: center;
-    height: auto;
-    display: block;
     margin-top: 10px;
 
 }
@@ -96,6 +92,7 @@ footer {
     font-family: 'Rubik', Arial, sans-serif;
     width: 100%;
     padding: 30px;
+    margin-top: 5px;
 }
 
 #last {
