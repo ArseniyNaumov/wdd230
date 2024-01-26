@@ -30,7 +30,26 @@ h1 {
     text-align: center;
 }
 
-nav {
+
+#menu {
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    color: #ffffff;
+
+}
+
+#menu::before {
+    content: "☰";
+    color: #ffffff;
+}
+
+#menu.open::before {
+    content: "✖";
+    color: #ffffff;
+}
+
+.nav {
     background-color: #000000;
     color: #ffffff;
     margin-bottom: 10px;
@@ -43,9 +62,10 @@ nav {
     font-size: 15px;
 }
 
-#navbar {
+ul {
     list-style-type: none;
 }
+
 
 nav a {
     color: #ffffff;
