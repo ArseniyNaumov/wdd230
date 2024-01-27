@@ -10,7 +10,7 @@ document.getElementById('lastModified').textContent = currentDate;
 
 
 const hamButton = document.querySelector('#menu');
-const navigation = document.querySelector('.nav');
+const navigation = document.querySelector('nav');
 
 hamButton.addEventListener('click', () => {
     navigation.classList.toggle('open'); // Toggle the 'open' class on the navigation element

@@ -2,17 +2,27 @@
 
 
     header {
-        flex-direction: row; /* Stack items vertically on smaller screens */
-        text-align: center; /* Center text when stacked */
+        flex-direction: row;
+        /* Stack items vertically on smaller screens */
+        text-align: center;
+        /* Center text when stacked */
     }
 
-    nav ul {
-		display: flex;
+    nav {
+        display: flex;
         padding: 20px;
-	}
+        justify-content: space-around;
 
-    nav ul li {padding: 11px;}
-	
+
+    }
+
+    nav a {
+        display: flex;
+    }
+
+    #menu {
+        display: none;
+    }
 
 
 }
