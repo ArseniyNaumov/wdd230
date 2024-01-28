@@ -29,7 +29,6 @@ h3 {
     color: var(--secondary-color);
 }
 
-.scenario,
 #onAccent {
     background-color: var(--accent-color);
 }
@@ -41,4 +40,23 @@ img {
 
 #accentOnMain {
     color: var(--accent-color);
+}
+
+#accentOnDark {
+    background-color: var(--primary-color);
+    color: var(--accent-color);
+}
+
+#reverse {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+}
+
+h4 {
+    color: var(--accent-color);
+}
+
+.scenario {
+
+    color: var(--secondary-color);
 }
