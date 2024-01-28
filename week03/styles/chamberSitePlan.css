@@ -1,0 +1,44 @@
+:root {
+    /* color schema */
+    --primary-color: #25160B;
+    --secondary-color: #8D5214;
+    --accent-color: #F58E1C;
+    --background-color: #FFFCE9;
+    /* font pair */
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Trebuchet MS', sans-serif;
+}
+
+body,
+header,
+main,
+section {
+    background-color: var(--background-color);
+    color: var(--primary-color);
+    font-family: var(--primary-font);
+
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--primary-font);
+}
+
+h3 {
+    color: var(--secondary-color);
+}
+
+.scenario,
+#onAccent {
+    background-color: var(--accent-color);
+}
+
+img {
+    border: 2px solid var(--primary-color);
+    width: 600px;
+}
+
+#accentOnMain {
+    color: var(--accent-color);
+}
