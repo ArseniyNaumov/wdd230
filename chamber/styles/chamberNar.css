@@ -79,7 +79,6 @@ nav {
 
     padding: 5px;
     display: block;
-    /*align-items: space-around;*/
     justify-content: space-around;
     text-align: left;
     line-height: 2.0;
@@ -99,8 +98,66 @@ nav a {
     color: var(--background-color);
     text-decoration: none;
     display: none;
+    cursor: pointer;
 }
 
+/*MAIN*/
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside {
+    flex: 0 0 500px;
+    width: 100%;
+}
+
+/*Aligning image with button*/
+
+#hero {
+    width: 100%;
+}
+
+#heroImageWithButton {
+    position: relative;
+    /* Set container to relative positioning */
+    display: inline-block;
+    /* Ensure container fits its content */
+}
+
+#heroImageWithButton img {
+    display: block;
+    /* Ensure image takes up its own space */
+    width: 100%;
+    /* Make image fill the container */
+}
+
+#heroImageWithButton Button {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-family: var(--primary-font);
+    font-weight: bolder;
+}
+
+
+section {
+    flex: 1;
+    width: 100%;
+}
+
+.weather-info {
+    background-color: var(--secondary-color);
+    color: var(--background-color);
+    width: 100%;
+}
 
 /*SLIDER CONTAINER*/
 .slider-container {
@@ -153,11 +210,11 @@ nav a {
 
 /*FOOTER*/
 footer {
-    background-color: #2c5a80;
-    color: #ffffff;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
     text-align: center;
-    padding: 20px;
-    margin: 50px 0 0 0;
+    font-family: var(--secondary-font);
+
 }
 
 

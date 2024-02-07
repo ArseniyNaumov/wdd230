@@ -1,4 +1,4 @@
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 400px) {
 
 
     header {
@@ -25,6 +25,27 @@
 
     #menu {
         display: none;
+    }
+
+
+    main {
+        display: flex;
+    }
+
+    aside {
+        width: 500px;
+        /* Fixed width of 500px */
+    }
+
+    section {
+        flex-grow: 1;
+        /* Occupy remaining space */
+    }
+
+
+
+    footer {
+        width: 100%;
     }
 
 
