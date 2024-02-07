@@ -1,5 +1,4 @@
-
-/*SLIDE CONTAINER STARTS HERE*/
+/*SLIDE CONTAINER CODE*/
 let slideIndex = 0;
 const slides = document.querySelectorAll('.slide');
 const totalSlides = slides.length;
@@ -14,3 +13,14 @@ function moveSlide(direction) {
     const slideWidth = slides[0].offsetWidth;
     document.querySelector('.slider').style.transform = `translateX(-${slideWidth * slideIndex}px)`;
 }
+
+/* HAMBURGER MENU CODE*/
+const hamButton = document.querySelector('#menu');
+const navigation = document.querySelector('nav');
+
+hamButton.addEventListener('click', () => {
+    navigation.classList.toggle('open'); // Toggle the 'open' class on the navigation element
+    hamButton.classList.toggle('open'); // Toggle the 'open' class on the hamButton element
+});
+
+/* WHEATHER CODE*/
