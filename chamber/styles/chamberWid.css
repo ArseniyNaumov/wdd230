@@ -8,9 +8,12 @@
         /* Center text when stacked */
     }
 
+    h1 {
+        text-align: center;
+    }
+
     nav {
         display: flex;
-        padding: 20px;
         justify-content: space-around;
 
 
