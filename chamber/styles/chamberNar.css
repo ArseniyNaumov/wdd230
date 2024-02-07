@@ -1,4 +1,26 @@
-/*SLIDE CONTAINER*/
+:root {
+    /* color schema */
+    --primary-color: #25160B;
+    --secondary-color: #8D5214;
+    --accent-color: #CE6E00;
+    --background-color: #FAF8EA;
+    /* font pair */
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Trebuchet MS', sans-serif;
+}
+
+/*below you can use
+var(--primary-color);
+var(--secondary-color);
+var(--accent-color);
+var(--background-color);
+
+var(--primary-font);
+var(--secondary-font);*/
+
+
+
+/*SLIDER CONTAINER*/
 .slider-container {
     position: relative;
     width: 300px;
@@ -25,18 +47,20 @@
     cursor: pointer;
     width: 30px;
     height: 30px;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
+    background-color: var(--primary-color);
+    color: var(--background-color);
     text-align: center;
     line-height: 30px;
 }
 
 .left-arrow {
     left: 0;
+    background-color: var(--accent-color);
 }
 
 .right-arrow {
     right: 0;
+    background-color: var(--accent-color);
 }
 
 /*HAMBURGER MENU*/
@@ -44,8 +68,8 @@
     font-size: 1.5rem;
     border: 0;
     background: none;
-    color: #FFFFFF;
-    background-color: #000000;
+    color: var(--background-color);
+    background-color: var(--secondary-color);
     text-align: right;
     padding-right: 5px;
 }
