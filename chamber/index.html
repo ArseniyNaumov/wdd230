@@ -13,6 +13,7 @@
     <title>The Chamber of Commerce Site Plan</title>
     <link rel=" stylesheet" href="styles/chamberNar.css">
     <link rel=" stylesheet" href="styles/chamberWid.css">
+    <script src="scripts/functionality.js" defer></script>
     <title> Spring Texas Chamber of Commerce </title>
     <link rel="icon" href="images/favic.ico">
 
@@ -20,17 +21,37 @@
 <body>
     <header style="background-color: #25160B;">
         <img src="images/logo.jpg" alt="logo">
-
-
+        <h1>Spring Texas Chamber of Commerce</h1>
     </header>
+    <nav class="navigation">
+        <button id="menu"></button>
+        <a href=#>Home</a>
+        <a href=# target=" _blank">Discover</a>
+        <a href=# target=" _blank">Directory</a>
+        <a href=# target=" _blank">Join</a>
+    </nav>
     <main>
         <aside>
-            <div id="heroImageWithButton">
+            <div id=" heroImageWithButton">
                 <img src="images/heroImage.jpg" alt="logo">
                 <Button>Join Us</Button>
             </div>
+            <div class="spotl"></div>
+            <div class="spotl"></div>
+            <div class="spotl"></div>
         </aside>
         <section>
+            <h2>Don`t miss upcoming events!
+            </h2>
+            <div class="slider-container">
+                <div class="slider">
+                    <div class="slide"><img src="picture1.jpg" alt="Picture 1"></div>
+                    <div class="slide"><img src="picture2.jpg" alt="Picture 2"></div>
+                    <div class="slide"><img src="picture3.jpg" alt="Picture 3"></div>
+                </div>
+                <div class="arrow left-arrow" onclick="moveSlide(-1)">←</div>
+                <div class="arrow right-arrow" onclick="moveSlide(1)">→</div>
+            </div>
 
         </section>
         <footer>

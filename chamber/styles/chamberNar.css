@@ -1,0 +1,42 @@
+/*SLIDE CONTAINER STARTS HERE*/
+.slider-container {
+    position: relative;
+    width: 300px;
+    /* Adjust width as needed */
+    height: 200px;
+    /* Adjust height as needed */
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
+
+.left-arrow {
+    left: 0;
+}
+
+.right-arrow {
+    right: 0;
+}
+
+/*SLIDE CONTAINER ENDS HERE*/
