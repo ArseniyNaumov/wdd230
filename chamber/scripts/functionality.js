@@ -42,3 +42,25 @@ function showSlides(n) {
     slides[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += " active";
 }
+
+
+
+
+// Dark Mode
+const main = document.querySelector("main");
+const modeSwitch = document.getElementById("modeSwitch");
+modeSwitch.addEventListener("change", function () {
+    const isChecked = this.checked;
+    if (isChecked) {
+        main.style.background = "#25160B";
+        alert("Dark mode is on")
+    } else {
+        alert("Dark mode is 0ff")
+
+    }
+});
+
+
+
+
+
