@@ -46,7 +46,7 @@ function showSlides(n) {
 
 
 
-// Dark Mode
+// DARK MODE
 const modeSwitch = document.getElementById("modeSwitch");
 const h2Element = document.querySelector("h2");
 
