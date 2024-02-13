@@ -47,16 +47,18 @@ function showSlides(n) {
 
 
 // Dark Mode
-const main = document.querySelector("main");
 const modeSwitch = document.getElementById("modeSwitch");
+
 modeSwitch.addEventListener("change", function () {
     const isChecked = this.checked;
     if (isChecked) {
-        main.style.background = "#25160B";
-        alert("Dark mode is on")
+        document.body.style.backgroundColor = "#0e0906";
+        document.h2.style.color = "#ff9b28";
+        alert("Dark mode is on");
     } else {
-        alert("Dark mode is 0ff")
-
+        document.body.style.backgroundColor = "#FAF8EA";
+        document.h2.style.color = "#CE6E00";
+        alert("Dark mode is off");
     }
 });
 
