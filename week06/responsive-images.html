@@ -11,10 +11,19 @@
     <main>
         <div class="hero">
             <picture>
-                <source src="images/hero-small.webp" media=" (max-width: 500px)">
-                <source src="images/hero-medium.webp" media="(max-width: 1000px)">
-                <img src="images/hero-large.webp" alt="Washington D.C. Temple" width="1278" height="800">
+                <source srcset="images/hero-small.jpg" media="(max-width: 500px)">
+                <source srcset="images/hero-medium.webp" media="(max-width: 1000px)">
+                <img src="images/hero-large.webp"
+                    alt="I don't know why the pisture is not rendered here, I have spend 5 hours troubleshooting, nothing works"
+                    width="1278" height="800">
             </picture>
+            <br><br>
+            <br>
+            this is medium webp<br>
+            <img src="images/hero-small.webp" alt="Washington D.C. Temple">
+            <br>
+            this is small webp<br>
+            <img src="images/hero-medium.webp" alt="Washington D.C. Temple">
         </div>
     </main>
 </body>
