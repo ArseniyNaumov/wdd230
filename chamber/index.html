@@ -21,7 +21,7 @@
 
 <body>
     <header>
-        <img id="logo" src="images/logo.jpg" alt="logo">
+        <img id="logo" src="images/logo.webp" alt="logo">
         <h1>Spring Texas Chamber of Commerce</h1>
         <div id="switchbox">
             <label class="switch">
@@ -41,7 +41,12 @@
     <main>
         <aside>
             <div id="heroImageWithButton">
-                <img id="hero" src="images/heroImage400.jpg" alt="logo">
+                <!-- Temporarily disabled <img src="images/heroImage400.jpg" alt="hero image">-->
+                <picture>
+                    <source srcset="images/heroImageTemp-small.webp" media="(max-width: 200px)">
+                    <source srcset="images/heroImageTemp-medium.webp" media="(max-width: 300px)">
+                    <img id="hero" src="images/heroImageTemp-Large.webp" alt="image of people making agreement">
+                </picture>
                 <Button>Join Us</Button>
             </div>
             <div class="spotl">

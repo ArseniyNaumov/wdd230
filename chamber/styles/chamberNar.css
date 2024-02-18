@@ -118,18 +118,18 @@ aside {
 }
 
 #hero {
+    display: block;
     width: 100%;
+    height: auto;
+    display: block;
 }
 
 #heroImageWithButton {
+    max-width: 400px;
     position: relative;
     display: inline-block;
 }
 
-#heroImageWithButton img {
-    display: block;
-    width: 100%;
-}
 
 #heroImageWithButton Button {
     position: absolute;
