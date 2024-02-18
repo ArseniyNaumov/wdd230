@@ -109,8 +109,16 @@
 
     <footer>
         <div class="weather-info">
-            <h3>Weather Information</h3>
-            <!-- Weather content goes here-->
+            <h3>WINDCHILL FACTOR</h3>
+            <br>
+            <label for="temperature">Temperature (°F):</label><br>
+            <input type="number" id="temperature" placeholder="Enter temperature"><br>
+            <br>
+            <label for="windSpeed">Wind Speed (mph):</label><br>
+            <input type="number" id="windSpeed" placeholder="Enter wind speed"><br>
+            <br>
+            <button onclick="calculateAndDisplay()">Calculate Wind Chill</button><br>
+            <p id="windChillOutput"></p>
         </div>
         <p>
             <span id="current-year">2024 &copy;</span><br>

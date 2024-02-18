@@ -200,7 +200,7 @@ h2 {
     width: 100%;
     margin: 0;
     padding: 35px;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: flex-start;
 }
