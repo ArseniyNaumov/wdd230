@@ -20,10 +20,15 @@ hamButton.addEventListener('click', () => {
 
 
 //NUMBER OF VISITS
+if (!localStorage.getItem("numVisits-ls")) {
+    localStorage.setItem("numVisits-ls", 0);
+}//this is the line  ChatGPT advised to have, since my Google Chrome refused to create the variable "numVisits-ls" on his own in Local Storage
+let numVisits = Number(localStorage.getItem("numVisits-ls"));
 const visitsDisplay = document.querySelector(".visits");
-let numVisits = Number(window.localStorage.getItem("numVisits-ls")) || 0;
 if (numVisits !== 0) {
     visitsDisplay.textContent = numVisits;
 } else {
-    visitsDisplay.textContent = "1st!  Welcome!🥳";
+    visitsDisplay.textContent = "1st! Welcome! 🥳";
 }
+numVisits++;//this is the line I ommitted and ChatGPT helped me realize I needed this to function properly
+localStorage.setItem("numVisits-ls", numVisits);
