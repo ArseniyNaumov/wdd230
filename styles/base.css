@@ -166,18 +166,10 @@ footer {
 }
 
 #lastModified {
-    font-style: italic;
-    color: #ffffff
+    color: #ffffff;
+    font-size: 12px;
 }
 
-/*.label {
-    font-weight: 700;
-}
-
-.visits {
-    color: white;
-
-}*/
 
 p {
     margin: 1rem;
