@@ -170,6 +170,21 @@ footer {
     color: #ffffff
 }
 
+/*.label {
+    font-weight: 700;
+}
+
+.visits {
+    color: white;
+
+}*/
+
+p {
+    margin: 1rem;
+}
+
+
+
 @media screen and (max-width: 392px) {
     .herolabel {
         display: none;

@@ -1,18 +1,29 @@
-// Getting the current year
+
+
+// CURRENT YEAR
 let currentYear = new Date().getFullYear();
-// Update the content of the 'current-year' span with the current year
 document.getElementById('current-year').textContent = currentYear;
 
-// Getting the current date
+
+// LAST MODIFIED
 let currentDate = new Date();
-// Update the content of the 'last modifyed' span with the current date
-document.getElementById('lastModified').textContent = currentDate;
+document.getElementById('lastModified').textContent = "Last Modified: " + currentDate;
 
 
+//HAMBURGER MENU
 const hamButton = document.querySelector('#menu');
 const navigation = document.querySelector('nav');
-
 hamButton.addEventListener('click', () => {
     navigation.classList.toggle('open'); // Toggle the 'open' class on the navigation element
     hamButton.classList.toggle('open'); // Toggle the 'open' class on the hamButton element
 });
+
+
+//NUMBER OF VISITS
+const visitsDisplay = document.querySelector(".visits");
+let numVisits = Number(window.localStorage.getItem("numVisits-ls")) || 0;
+if (numVisits !== 0) {
+    visitsDisplay.textContent = numVisits;
+} else {
+    visitsDisplay.textContent = "1st!  Welcome!🥳";
+}
