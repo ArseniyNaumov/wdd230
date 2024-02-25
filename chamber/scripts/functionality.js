@@ -8,9 +8,9 @@ hamButton.addEventListener('click', () => {
 });
 console.log("this file is linked");
 
-
-
-
+// LAST MODIFIED
+let currentDate = new Date();
+document.getElementById('lastModified').textContent = "Last Modified: " + currentDate;
 
 
 // SLIDESHOW

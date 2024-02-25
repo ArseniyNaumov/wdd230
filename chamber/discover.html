@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chamber of Commerce project discover page">
+    <meta name="author" content="Arseniy Naumov">
+    <meta property="og:title" content="L04: Project Milestone - The Chamber of Commerce Home page">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://arseniynaumov.github.io/wdd230/chamber/discover.html">
+    <meta property="og:image" content="https://imgur.com/a/tyCWjN0">
+    <title>Discover Page</title>
+    <link rel=" stylesheet" href="styles/normalize.css">
+    <link rel=" stylesheet" href="styles/chamberNar.css">
+    <link rel=" stylesheet" href="styles/chamberWid.css">
+    <script src="scripts/functionality.js" defer></script>
+
+    <link rel="icon" href="images/favic.ico">
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="images/logo.webp" alt="logo">
+        <h1>Spring Texas Chamber of Commerce</h1>
+        <div id="switchbox">
+            <label class="switch">
+                <input id="modeSwitch" type="checkbox">
+                <span class="slider"></span>
+            </label>
+            <br><br>Dark Mode
+        </div>
+    </header>
+    <nav class="navigation">
+        <button id="menu"></button>
+        <a href="index.html">Home</a>
+        <a href="discover.html" _blank">Discover</a>
+        <a href=# target=" _blank">Directory</a>
+        <a href=# target=" _blank">Join</a>
+    </nav>
+    <main>
+        <div id="statistics">
+            <h5>Statistics</h5>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In facere saepe exercitationem amet magnam
+                reprehenderit sequi, nostrum sapiente minus minima! Consequatur ad voluptatibus a deserunt minus
+                praesentium amet, ab necessitatibus ullam ducimus hic accusamus, totam cumque quibusdam? Adipisci,
+                omnis dignissimos eveniet praesentium dolorum atque accusantium impedit aspernatur totam, sed magni!
+            </p>
+        </div>
+        <div id="events">
+            <h5>NEXT EVENT</h5>
+            <img loading="lazy" src="images/fair.jpg" alt="Fair in Spring">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. In facere saepe exercitationem amet magnam
+            reprehenderit sequi, nostrum sapiente!
+        </div>
+        <div id="calendar">
+            <h5>CALENDAR</h5>
+            <img loading=" lazy" src="images/calendar.jpg" alt="Fair in Spring">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In facere saepe exercitationem amet
+                magnam
+                reprehenderit sequi, nostrum sapiente minus minima! Consequatur ad voluptatibus a deserunt minus
+                praesentium amet, ab necessitatibus ullam ducimus hic accusamus, totam cumque quibusdam?
+                Adipisci,
+                omnis dignissimos eveniet praesentium dolorum atque accusantium impedit aspernatur totam, sed
+                magni!
+            </p>
+        </div>
+        <div class="pictureColumn">
+            <img id="lazy" loading="lazy" src="images/spring1.jpg" alt="picture of the Spring Texas">
+            <img id="lazy" loading="lazy" src="images/spring2.jpg" alt="picture of the Spring Texas">
+            <img id="lazy" loading="lazy" src="images/spring3.jpg" alt="picture of the Spring Texas">
+            <img id="lazy" loading="lazy" src="images/spring4.jpg" alt="picture of the Spring Texas">
+            <img id="lazy" loading="lazy" src="images/spring5.jpg" alt="picture of the Spring Texas">
+            <img id="lazy" loading="lazy" src="images/spring6.jpg" alt="picture of the Spring Texas">
+        </div>
+    </main>
+
+    <footer>
+        <div class="weather-info">
+            <h3>WINDCHILL FACTOR</h3>
+            <br>
+            <label for="temperature">Temperature (°F):</label><br>
+            <input type="number" id="temperature" placeholder="Enter temperature"><br>
+            <br>
+            <label for="windSpeed">Wind Speed (mph):</label><br>
+            <input type="number" id="windSpeed" placeholder="Enter wind speed"><br>
+            <br>
+            <button onclick="calculateAndDisplay()">Calculate Wind Chill</button><br>
+            <p id="windChillOutput"></p>
+        </div>
+        <p>
+            <span id="current-year">2024 &copy;</span><br>
+            Spring City, Texas State Department of Commerse and Public Environment<br>
+            The United States of America<br><br>
+            <img class="flag" src="images/us.jpg" alt="Small US Flag">
+        </p>
+        <p id="lastModified">
+        </p>
+        <p style="margin:0;">
+            <img style="border:0;width:88px;height:31px;" src="images/w3c_html.jpg" alt="Valid CSS!">
+            <img style="border:0;width:88px;height:31px;" src="images/w3c_css.jpg" alt="Valid HTML!">
+        </p>
+
+    </footer>
+</body>
+
+</html>
