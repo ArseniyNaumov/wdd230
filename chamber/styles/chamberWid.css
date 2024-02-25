@@ -103,12 +103,18 @@
     padding: 10px;
 }
 
-#calendPic,
+
 #eventPic {
     max-width: 280px;
     height: auto;
     border: 1px solid var(--primary-color);
 
+}
+
+#calendPic {
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--primary-color);
 }
 
 
