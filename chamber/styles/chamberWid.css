@@ -51,6 +51,12 @@
         width: 100%;
     }
 
+    #discoverGrid {
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: none;
+    }
+
 
 }
 
@@ -70,6 +76,8 @@
     }
 
 }
+
+
 
 /* DISCOVER PAGE*/
 
