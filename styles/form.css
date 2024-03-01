@@ -1,0 +1,37 @@
+:root {
+    /* color schema */
+    --primary-color: #2c5a80;
+    --secondary-color: #000000;
+    --accent-color: #007adf;
+
+
+}
+
+/*below you can use
+var(--primary-color);
+var(--secondary-color);
+var(--accent-color);*/
+
+#headerReg {
+    color: var(--primary-color);
+}
+
+
+
+div {
+    margin: 30 px;
+    padding-left: 20%;
+    font-size: 20px;
+    text-align: left;
+    color: var(--secondary-color)
+}
+
+
+
+button {
+    background-color: var(--accent-color);
+}
+
+#button {
+    padding-left: 45%;
+}

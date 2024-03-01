@@ -75,79 +75,81 @@
         grid-column: 2/3;
     }
 
-}
 
 
 
-/* DISCOVER PAGE*/
 
-#discoverGrid {
-    display: grid;
-    grid-template-columns: 300px auto;
-    /* here I used chatGPT to correct my syntaxis*/
-    grid-template-rows: 300px 400px 300px minmax(auto, max-content);
-    margin: 10px;
-    grid-gap: 10px;
-    z-index: 1;
-}
+    /* DISCOVER PAGE*/
 
-#statistics {
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-    max-width: 400px;
-    text-align: justify;
-    background-color: rgb(238, 184, 122);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding: 10px;
-}
+    #discoverGrid {
+        display: grid;
+        grid-template-columns: 300px auto;
+        /* here I used chatGPT to correct my syntaxis*/
+        grid-template-rows: 300px 400px 300px minmax(auto, max-content);
+        margin: 10px;
+        grid-gap: 10px;
+        z-index: 1;
+    }
 
-#event {
-    grid-column: 1 / 2;
-    grid-row: 2 / 3;
-    max-width: 400px;
-    text-align: justify;
-    background-color: rgb(238, 184, 122);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding: 10px;
-}
+    #statistics {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        max-width: 400px;
+        text-align: justify;
+        background-color: rgb(238, 184, 122);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        padding: 10px;
+    }
 
-
-#eventPic {
-    max-width: 280px;
-    height: auto;
-    border: 1px solid var(--primary-color);
-
-}
-
-#calendPic {
-    width: 100%;
-    height: auto;
-    border: 1px solid var(--primary-color);
-}
+    #event {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        max-width: 400px;
+        text-align: justify;
+        background-color: rgb(238, 184, 122);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        padding: 10px;
+    }
 
 
-#calendar {
-    grid-column: 1 / 2;
-    grid-row: 3 / 4;
-    max-width: 400px;
+    #eventPic {
+        max-width: 280px;
+        height: auto;
+        border: 1px solid var(--primary-color);
+
+    }
+
+    #calendPic {
+        width: 100%;
+        height: auto;
+        border: 1px solid var(--primary-color);
+    }
 
 
-}
+    #calendar {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+        max-width: 400px;
 
-#pictureColumn {
-    grid-column: 2 / 3;
-    grid-row: 1 / 5;
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-}
 
-#lazy {
-    width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-}
+    }
 
-footer {
-    z-index: 1;
+    #pictureColumn {
+        grid-column: 2 / 3;
+        grid-row: 1 / 5;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+    }
+
+    #lazy {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    footer {
+        z-index: 1;
+    }
+
 }
