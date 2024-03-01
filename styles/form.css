@@ -2,7 +2,7 @@
     /* color schema */
     --primary-color: #2c5a80;
     --secondary-color: #000000;
-    --accent-color: #007adf;
+    --accent-color: #a0aeb9;
 
 
 }
@@ -30,7 +30,10 @@ div {
 
 button {
     background-color: var(--accent-color);
+    padding: 20px 50px 20px 50px;
+    border-radius: 5px;
 }
+
 
 #button {
     padding-left: 45%;
