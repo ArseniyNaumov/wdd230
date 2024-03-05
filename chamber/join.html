@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chamber of Commerce project Join page">
+    <meta name="author" content="Arseniy Naumov">
+    <meta property="og:title" content="L04: Project Milestone - The Chamber of Commerce Join page">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://arseniynaumov.github.io/wdd230/chamber/join.html">
+    <meta property="og:image" content="https://imgur.com/a/tyCWjN0">
+    <title>Join Page</title>
+    <link rel=" stylesheet" href="styles/normalize.css">
+    <link rel=" stylesheet" href="styles/chamberNar.css">
+    <link rel=" stylesheet" href="styles/chamberWid.css">
+    <script src="scripts/functionality.js" defer></script>
+
+    <link rel="icon" href="images/favic.ico">
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="images/logo.webp" alt="logo">
+        <h1>Spring Texas Chamber of Commerce</h1>
+        <div id="switchbox">
+            <label class="switch">
+                <input id="modeSwitch" type="checkbox">
+                <span class="slider"></span>
+            </label>
+            <br><br>Dark Mode
+        </div>
+    </header>
+    <nav class="navigation">
+        <button id="menu"></button>
+        <a href="index.html">Home</a>
+        <a href="discover.html" target=" _blank">Discover</a>
+        <a href=# target=" _blank">Directory</a>
+        <a href=# target=" _blank">Join</a>
+    </nav>
+
+    <main id="form">
+        <main>
+            <form action="thankyou.html" method="get">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required><br>
+                <br>
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required><br>
+                <br>
+                <label for="position">Title/Position:</label>
+                <input type="text" id="position" name="position" required pattern="[a-zA-Z -]{7,}"><br>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="example@example.com"><br>
+                <br>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required><br>
+                <br>
+                <label for="organization">Organization:</label>
+                <input type="text" id="organization" name="organization" required><br>
+                <br>
+                <label for="membershipLevel">Membership Level:</label>
+                <select id="membershipLevel" name="membershipLevel" required>
+                    <option value="NP">NP Membership</option>
+                    <option value="Bronze">Bronze Membership</option>
+                    <option value="Silver">Silver Membership</option>
+                    <option value="Gold">Gold Membership</option>
+                </select><br>
+                <br>
+                <label for="description">Organization Description:</label><br>
+                <textarea id="description" name="description"></textarea><br>
+                <br>
+                <input type="hidden" id="timestamp" name="timestamp">
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+            <div id="membershipBenefits">
+                <!-- Membership level benefits here -->
+            </div>
+        </main>
+
+    </main>
+
+    <footer>
+        <div class="weather-info">
+            <h3>WINDCHILL FACTOR</h3>
+            <br>
+            <label for="temperature">Temperature (°F):</label><br>
+            <input type="number" id="temperature" placeholder="Enter temperature"><br>
+            <br>
+            <label for="windSpeed">Wind Speed (mph):</label><br>
+            <input type="number" id="windSpeed" placeholder="Enter wind speed"><br>
+            <br>
+            <button onclick="calculateAndDisplay()">Calculate Wind Chill</button><br>
+            <p id="windChillOutput"></p>
+        </div>
+        <p><span class="visits"></span></p>
+        <p>
+            <span id="current-year">2024 &copy;</span><br>
+            Spring City, Texas State Department of Commerse and Public Environment<br>
+            The United States of America<br><br>
+            <img class="flag" src="images/us.jpg" alt="Small US Flag">
+        </p>
+        <p id="lastModified">
+        </p>
+        <p style="margin:0;">
+            <img style="border:0;width:88px;height:31px;" src="images/w3c_html.jpg" alt="Valid CSS!">
+            <img style="border:0;width:88px;height:31px;" src="images/w3c_css.jpg" alt="Valid HTML!">
+        </p>
+
+    </footer>
+</body>
+
+</html>

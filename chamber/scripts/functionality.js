@@ -114,4 +114,8 @@ function displayVisitMessage() {
     localStorage.setItem('lastVisit', currentDate.toISOString());
 }
 
+//JOIN PAGE
+document.getElementById("timestamp").value = Date.now();
+
+
 
