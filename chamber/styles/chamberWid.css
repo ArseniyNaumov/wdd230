@@ -152,4 +152,10 @@
         z-index: 1;
     }
 
+    /*JOIN PAGE*/
+    #form {
+        padding-left: 120px;
+        padding: 80px
+    }
+
 }
