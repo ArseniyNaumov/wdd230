@@ -1,0 +1,12 @@
+section {
+    background-color: rgb(191, 191, 236);
+    padding: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 5px;
+    border: 2px solid rgb(115, 115, 221);
+    ;
+}
+
+h2 {
+    text-align: center;
+}
