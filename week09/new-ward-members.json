@@ -1,0 +1,30 @@
+{
+    "wardInformation": {
+        "familyName": "Naumov",
+        "moveInDate": "2022-03-15",
+        "numberOfPeople": 4,
+        "visitedByBishopric": true,
+        "familyMembers": [
+            {
+                "name": "Arseniy Naumov",
+                "gender": "Male",
+                "birthdate": "1986-08-14"
+            },
+            {
+                "name": "Nina Naumova",
+                "gender": "Female",
+                "birthdate": "1986-08-08"
+            },
+            {
+                "name": "Emmanuil Naumov",
+                "gender": "Male",
+                "birthdate": "2012-05-03"
+            },
+            {
+                "name": "Samuil Naumov",
+                "gender": "Male",
+                "birthdate": "2018-06-01"
+            }
+        ]
+    }
+}
