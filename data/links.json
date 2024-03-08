@@ -1,0 +1,77 @@
+{
+    "lessons": [
+        {
+            "lesson": "02",
+            "links": [
+                {
+                    "url": "week01/holygrail.html",
+                    "title": "Holygrail assignment"
+                },
+                {
+                    "url": "https://codepen.io/Arseniy-Naumov/details/bGZexee",
+                    "title": "Codepen assignment"
+                },
+                {
+                    "url": "week02/design.html",
+                    "title": "Design assignment"
+                },
+                {
+                    "url": "week02/mediaquery.html",
+                    "title": "Media Queries"
+                },
+                {
+                    "url": "week02/design-principles.html",
+                    "title": "Design Principles Assignment"
+                },
+                {
+                    "url": "week03/assignment.html",
+                    "title": "Learning Activities"
+                },
+                {
+                    "url": "week03/chamber-site-plan.html",
+                    "title": "Chamber of Commerce Site Plan"
+                },
+                {
+                    "url": "chamber/index.html",
+                    "title": "Chamber of Commerce Home Page"
+                },
+                {
+                    "url": "https://codepen.io/Arseniy-Naumov/pen/QWoZYrP",
+                    "title": "BofM DOM Exercise"
+                },
+                {
+                    "url": "week06/images/landscape.webp",
+                    "title": "WebP"
+                },
+                {
+                    "url": "week06/responsive-images.html",
+                    "title": "Responsive Images"
+                },
+                {
+                    "url": "chamber/index.html",
+                    "title": "Responsive Chamber of Commerce Home Page"
+                },
+                {
+                    "url": "week07/lazyload.html",
+                    "title": "LazyLoad"
+                },
+                {
+                    "url": "week07/localStorage.html",
+                    "title": "Web Storage API - localStorage"
+                },
+                {
+                    "url": "form.html",
+                    "title": "Form page"
+                },
+                {
+                    "url": "week09/new-ward-members.json",
+                    "title": "JSON file"
+                },
+                {
+                    "url": "week09/prophets.html",
+                    "title": "The Fetch API"
+                }
+            ]
+        }
+    ]
+}
