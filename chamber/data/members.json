@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Airton Agriculture Store LLC",
+        "address": "123 Main St, Spring, TX",
+        "phone": "123-456-7890",
+        "website": "https://www.companya.com",
+        "image": "company_a.jpg",
+        "membershipLevel": "Gold",
+        "industry": "Retail"
+    },
+    {
+        "name": "Berkley Bureau Co.",
+        "address": "456 Elm St, Spring, TX",
+        "phone": "987-654-3210",
+        "website": "https://www.companyb.com",
+        "image": "company_b.jpg",
+        "membershipLevel": "Silver",
+        "industry": "Services"
+    },
+    {
+        "name": "Conley&Shiffts AutoShop",
+        "address": "7890 North Loop, Spring, TX",
+        "phone": "989-656-1623",
+        "website": "https://www.companyc.com",
+        "image": "company_c.jpg",
+        "membershipLevel": "Silver",
+        "industry": "Automotive"
+    },
+    {
+        "name": "Driveway Pavement LLC",
+        "address": "8900 West Rd., Spring, TX",
+        "phone": "895-614-8523",
+        "website": "https://www.companyd.com",
+        "image": "company_d.jpg",
+        "membershipLevel": "Gold",
+        "industry": "Construction"
+    },
+    {
+        "name": "Earl Tibbits Co",
+        "address": "5210 Easter Cr., Spring, TX",
+        "phone": "789-856-4898",
+        "website": "https://www.companye.com",
+        "image": "company_e.jpg",
+        "membershipLevel": "Bronze",
+        "industry": "Retail"
+    },
+    {
+        "name": "Friendly Family Dealer",
+        "address": "1001 Bagger St, Spring, TX",
+        "phone": "856-902-4613",
+        "website": "https://www.companyf.com",
+        "image": "company_f.jpg",
+        "membershipLevel": "Gold",
+        "industry": "Automotive"
+    },
+    {
+        "name": "Grader Griddler LLC",
+        "address": "5210 South St, Spring, TX",
+        "phone": "486-559-1289",
+        "website": "https://www.companyg.com",
+        "image": "company_g.jpg",
+        "membershipLevel": "Gold",
+        "industry": "Road Services"
+    }
+]

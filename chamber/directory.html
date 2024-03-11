@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Chamber of Commerce project Thank you page">
+    <meta name="description" content="Chamber of Commerce project directory page">
     <meta name="author" content="Arseniy Naumov">
-    <meta property="og:title" content="L04: Project Milestone - The Chamber of Commerce Thank you page">
+    <meta property="og:title" content="L04: Project Milestone - The Chamber of Commerce Directory page">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://arseniynaumov.github.io/wdd230/chamber/thankyou.html">
+    <meta property="og:url" content="https://arseniynaumov.github.io/wdd230/chamber/index.html">
     <meta property="og:image" content="https://imgur.com/a/tyCWjN0">
-    <title>Thank you Page</title>
+    <title>Directory Page</title>
     <link rel=" stylesheet" href="styles/normalize.css">
     <link rel=" stylesheet" href="styles/chamberNar.css">
     <link rel=" stylesheet" href="styles/chamberWid.css">
@@ -39,12 +39,15 @@
         <a href="join.html" target=" _blank">Join</a>
     </nav>
 
-    <main id="form">
-
-        <h1>Thank You!</h1>
-        <p>Your form has been submitted successfully. We appreciate your interest in our organization.</p>
-
-
+    <main id="dir">
+        <div id="viewToggle">
+            <label for="viewToggleSelect">View:</label>
+            <select id="viewToggleSelect">
+                <option value="cards">Cards</option>
+                <option value="list">List</option>
+            </select>
+        </div>
+        <button id="displayButton">Display Members</button>
     </main>
 
     <footer>
