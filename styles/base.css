@@ -155,11 +155,14 @@ h3 {
 figcaption {
     color: rgba(0, 0, 0, .75);
     font-weight: bold;
+    margin-top: 10px;
+    font-size: 13px;
 }
 
 .label,
 .visits {
     font-style: italic;
+    font-weight: bold;
 }
 
 footer {
