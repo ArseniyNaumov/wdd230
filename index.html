@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Public+Sans&display=swap"
         rel="stylesheet">
-    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/mainScripts.js" defer></script>
 
     <title>Arseniy Naumov - WDD230 - Web Frontend Development </title>
     <link rel="icon" href="favicon.ico">
@@ -90,13 +90,16 @@
         </section>
         <section class="card">
             <h3 id="info">Information</h3>
-            Spring, TX <br><br>
-            Weather <br><br>
-            Number of visits on this Page <br><br>
+            <p class="weather">Spring, TX: <br>
+                <img id="weather-icon" src="" alt="">
+                <span id="current-temp">XX</span>
+            <figcaption></figcaption>
+            </p>
+            <p><span class="label">Visit Count: </span><span class="visits"></span></p>
+
         </section>
     </main>
     <footer>
-        <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
         <p id="lastModified"></p>
         <p>
             &copy;<span id="current-year"></span><br><br>
