@@ -114,16 +114,12 @@
 
     <footer>
         <div class="weather-info">
-            <h3>WINDCHILL FACTOR</h3>
-            <br>
-            <label for="temperature">Temperature (°F):</label><br>
-            <input type="number" id="temperature" placeholder="Enter temperature"><br>
-            <br>
-            <label for="windSpeed">Wind Speed (mph):</label><br>
-            <input type="number" id="windSpeed" placeholder="Enter wind speed"><br>
-            <br>
-            <button onclick="calculateAndDisplay()">Calculate Wind Chill</button><br>
-            <p id="windChillOutput"></p>
+            <figure class="weather">
+                Spring, TX: <br>
+                <img id="weather-icon" src="https://openweathermap.org/img/w/10d.png" alt="">
+                <span id="current-temp"></span>
+                <figcaption></figcaption>
+            </figure>
         </div>
         <p><span class="visits"></span></p>
         <p>

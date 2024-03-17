@@ -1,21 +1,31 @@
-//WINDSHIELD FACTOR CALCULATOR CODE
-function calculateAndDisplay() {
-    // Get input values
-    var temperatureInput = document.getElementById("temperature").value;
-    var windSpeedInput = document.getElementById("windSpeed").value;
+//WEATHER API
+const currentTemp = document.querySelector('#current-temp');
+const weatherIcon = document.querySelector('#weather-icon');
+const captionDesc = document.querySelector('figcaption');
+const url = `https://api.openweathermap.org/data/2.5/weather?lat=49.76&lon=6.65&units=imperial&appid=b762dd22fc236e01b76f3061c1f87dd8`;
 
-    // Convert input values to numbers
-    var temperature = parseFloat(temperatureInput);
-    var windSpeed = parseFloat(windSpeedInput);
+async function apiFetch() {
+    try {
+        const response = await fetch(url);
+        if (response.ok) {
+            const data = await response.json();
+            displayResults(data);
+        } else {
+            throw Error(await response.text());
 
-    // Check if input values meet the specification limits
-    if (temperature <= 50 && windSpeed > 3.0) {
-        // Calculate wind chill factor using the formula
-        var windChillFactor = 35.74 + (0.6215 * temperature) - (35.75 * Math.pow(windSpeed, 0.16)) + (0.4275 * temperature * Math.pow(windSpeed, 0.16));
-        windChillFactor = windChillFactor.toFixed(2); // Round to 2 decimal places
-        document.getElementById("windChillOutput").textContent = "Wind Chill Factor: " + windChillFactor;
-    } else {
-        // Display "N/A" if input values do not meet requirements
-        document.getElementById("windChillOutput").textContent = "N/A";
+        }
+    } catch (error) {
+        console.log(error);
     }
 }
+
+function displayResults(data) {
+    currentTemp.innerHTML = `${data.main.temp}&deg;F`;
+    const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon.substring(0, 3)}.png`;
+    const desc = data.weather[0].description;
+    weatherIcon.setAttribute('src', iconsrc);
+    weatherIcon.setAttribute('alt', desc);
+    captionDesc.textContent = `${desc}`;
+}
+
+apiFetch();
