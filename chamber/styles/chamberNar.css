@@ -454,8 +454,41 @@ input[type="submit"] {
     padding: 10px 20px;
     border: 1px var(--primary-color);
     cursor: pointer;
+    font-family: var(--primary-font);
+
 }
 
 input[type="submit"]:hover {
     background-color: #f8a057;
+}
+
+/* DIRECTORY PAGE*/
+#dir {
+    padding: 20px;
+    text-align: center;
+    font-family: var(--secondary-font);
+}
+
+#displayButton {
+    background-color: var(--accent-color);
+    color: var(--background-color);
+    padding: 10px 20px;
+    border: 1px var(--primary-color);
+    cursor: pointer;
+    margin: 20px;
+    font-family: var(--primary-font);
+}
+
+.member-card h2 {
+    color: var(--primary-color);
+    text-shadow: -2px 2px 0 var(--accent-color);
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.member-card img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-top: 60px;
 }
