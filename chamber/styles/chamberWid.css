@@ -1,6 +1,4 @@
 @media screen and (min-width: 400px) {
-
-
     header {
         flex-direction: row;
         /* Stack items vertically on smaller screens */
