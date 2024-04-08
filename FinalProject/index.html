@@ -11,11 +11,17 @@
     <meta property="og:url" content="https://arseniynaumov.github.io/wdd230/FinalProject/index.html">
     <meta property="og:image" content="https://imgur.com/a/dprB9iC">
     <title>Home Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
     <link rel=" stylesheet" href="styles/main.css">
     <link rel=" stylesheet" href="styles/wide.css">
-    <script src="scripts/hamMenu.js" defer></script>
-    <script src="scripts/slideShow.js" defer></script>
-    <script src="scripts/weather.js" defer></script>
+    <!--
+        <script src="scripts/hamMenu.js" defer>
+        </script>
+        <script src="scripts/slideShow.js" defer></script>
+        <script src="scripts/weather.js" defer></script> -->
     <link rel="icon" href="images/logo.ico">
 </head>
 
@@ -32,13 +38,21 @@
 
     </header>
     <main>
-        <section id="banner"></section>
-        <button class="actionButtion">Explore</button>
+        <section id="banner">
+            <img class="banner" src="images/Banner.jpg" alt="big image of you driving scooter on the road">
+            <button class="actionButton">EXPLORE</button>
+        </section>
         <div id="contactBlock">
+            <h3>Come:</h3>
+            <p id="address">Av. Rafael E. Melgar 1662<br>Near the Playa del Carmen-Cozumel Ferry dock<br>in el Centro de
+                Cozumel
+            </p>
+            <h3>Call / Text: </h3>
+            <p id="tel">+52-987-500-9700<br>
+                Manuel Perez</p>
         </div>
         <div id="weatherBlock">
-            <p>Come:</p>
-            <p>Call:</p>
+
         </div>
     </main>
     <footer>
