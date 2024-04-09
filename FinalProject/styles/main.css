@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    height: 200px;
+    height: 130px;
     display: flex;
     align-items: flex-end;
     margin-bottom: 5px;
@@ -30,7 +30,7 @@ header {
     background-color: var(--accent-color);
     color: var(--background-color);
     font-weight: bold;
-    font-size: 12px;
+    font-size: 15px;
     text-align: center;
     border-radius: 7px;
     z-index: 9999;
@@ -236,6 +236,11 @@ h2 {
 
 /*Small screen rules*/
 @media only screen and (max-width: 299px) {
+
+    header {
+        height: 130px;
+    }
+
     .actionButton {
         padding: 5px;
     }
