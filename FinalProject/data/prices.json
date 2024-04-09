@@ -1,6 +1,7 @@
 [
     {
         "option#": "1",
+        "type": "Scooter",
         "make&Model": "Honda Metro Scooter",
         "seatCapacity": "1",
         "image": "field.jpg",
@@ -19,6 +20,7 @@
     },
     {
         "option#": "2",
+        "type": "Scooter",
         "make&Model": "Honda Dio Scooter",
         "seatCapacity": "2",
         "image": "field.jpg",
@@ -37,6 +39,7 @@
     },
     {
         "option#": "3",
+        "type": "Scooter",
         "make&Model": "Honda PCX150 Scooter",
         "seatCapacity": "2",
         "image": "field.jpg",
@@ -55,6 +58,7 @@
     },
     {
         "option#": "4",
+        "type": "Side-by-Side ATV",
         "make&Model": "Honda Pioneer ATV",
         "seatCapacity": "4",
         "image": "field.jpg",
@@ -73,6 +77,7 @@
     },
     {
         "option#": "5",
+        "type": "Jeep",
         "make&Model": "Jeep Wrangler - 4 door with A/C",
         "seatCapacity": "5",
         "image": "field.jpg",
