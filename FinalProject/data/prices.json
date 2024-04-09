@@ -4,7 +4,7 @@
         "type": "Scooter",
         "make&Model": "Honda Metro Scooter",
         "seatCapacity": "1",
-        "image": "item1.jpg",
+        "image": "../images/item1.webp",
         "reservation": [
             {
                 "halfDay": "$20",
@@ -23,7 +23,7 @@
         "type": "Scooter",
         "make&Model": "Honda Dio Scooter",
         "seatCapacity": "2",
-        "image": "field.jpg",
+        "image": "../images/item2.webp",
         "reservation": [
             {
                 "halfDay": "$30",
@@ -42,7 +42,7 @@
         "type": "Scooter",
         "make&Model": "Honda PCX150 Scooter",
         "seatCapacity": "2",
-        "image": "field.jpg",
+        "image": "../images/item3.webp",
         "reservation": [
             {
                 "halfDay": "$40",
@@ -61,7 +61,7 @@
         "type": "Side-by-Side ATV",
         "make&Model": "Honda Pioneer ATV",
         "seatCapacity": "4",
-        "image": "field.jpg",
+        "image": "../images/item4.webp",
         "reservation": [
             {
                 "halfDay": "$50",
@@ -80,7 +80,7 @@
         "type": "Jeep",
         "make&Model": "Jeep Wrangler - 4 door with A/C",
         "seatCapacity": "5",
-        "image": "field.jpg",
+        "image": "../images/item5.webp",
         "reservation": [
             {
                 "halfDay": "$70",
@@ -98,7 +98,7 @@
         "option#": "6",
         "make&Model": "Jeep Wrangler - 2 door",
         "seatCapacity": "4",
-        "image": "field.jpg",
+        "image": "../images/item6.webp",
         "reservation": [
             {
                 "halfDay": "$60",

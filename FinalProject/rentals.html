@@ -18,7 +18,7 @@
     <link rel=" stylesheet" href="styles/main.css">
     <link rel=" stylesheet" href="styles/wide.css">
     <script src="scripts/hamMenu.js" defer></script>
-    <!--<script src="scripts/weather.js" defer></script>-->
+    <script src="scripts/offer.js" defer></script>
     <link rel="icon" href="images/logo.ico">
 </head>
 
@@ -34,12 +34,17 @@
         <a href="contact.html" target="_blank">Contact</a>
     </nav>
     <main>
-
-
-
-
-
-
+        <select id="vehicleSelect">
+            <option value="">Select a vehicle</option>
+        </select>
+        <br>
+        <img id="vehicleImage" src="" alt="Vehicle Image">
+        <h3>Reservation prices</h3>
+        <p>for Half Day (3 hrs): <span id="reservationHalfDay"></span></p>
+        <p>Full Day: <span id="reservationFullDay"></span></p>
+        <h3>Regular walk-In prices</h3>
+        <p>for Half Day (3 hrs): <span id="walkInHalfDay"></span></p>
+        <p>Full Day: <span id="walkInFullDay"></span></p>
     </main>
     <footer>
         <div id="socialMedia">
