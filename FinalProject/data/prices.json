@@ -4,7 +4,7 @@
         "type": "Scooter",
         "make&Model": "Honda Metro Scooter",
         "seatCapacity": "1",
-        "image": "field.jpg",
+        "image": "item1.jpg",
         "reservation": [
             {
                 "halfDay": "$20",
