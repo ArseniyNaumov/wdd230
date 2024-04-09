@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    height: 200px;
+    height: 230px;
     display: flex;
     align-items: flex-end;
     margin-bottom: 5px;
@@ -99,7 +99,6 @@ nav {
     color: var(--background-color);
     font-weight: bold;
 }
-
 
 .open a {
     display: block;
