@@ -234,7 +234,21 @@ h2 {
     margin-top: 10px;
 }
 
+/*FOOTER*/
 
+#socialMedia {
+    padding: 40px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social {
+    width: 40px;
+    height: 40px;
+    margin: 0 20px;
+}
 
 
 
