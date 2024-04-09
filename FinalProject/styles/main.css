@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    height: 230px;
+    height: 200px;
     display: flex;
     align-items: flex-end;
     margin-bottom: 5px;
@@ -30,6 +30,7 @@ header {
     background-color: var(--accent-color);
     color: var(--background-color);
     font-weight: bold;
+    font-size: 12px;
     text-align: center;
     border-radius: 7px;
     z-index: 9999;
@@ -66,38 +67,37 @@ header {
     height: auto;
 }
 
-/* HAMBURGER MENU*/
-nav {
-    width: 100%;
-    padding: 5px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 18px;
-    position: relative;
-}
+/*HAMBURGER MENU*/
 
 #menu {
-    position: absolute;
-    right: 5px;
-    bottom: 1px;
-    background-color: var(--accent-color);
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
     color: var(--background-color);
-    border: none;
-    padding: 10px 15px;
-    border-radius: 3px;
+    background-color: var(--primary-color);
+    text-align: right;
+    padding-right: 5px;
 }
 
 #menu::before {
     content: "☰";
     color: var(--background-color);
-    font-weight: bold;
 }
 
 #menu.open::before {
     content: "✖";
     color: var(--background-color);
-    font-weight: bold;
+}
+
+nav {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    padding: 5px;
+    display: block;
+    justify-content: space-around;
+    text-align: left;
+    line-height: 2.0;
+    font-size: 20px;
 }
 
 .open a {
@@ -110,10 +110,16 @@ ul {
 
 
 nav a {
+    color: var(--background-color);
     text-decoration: none;
     display: none;
-    cursor: pointer;
+    font-size: 20px;
 }
+
+nav a:hover {
+    color: var(--accent-color);
+}
+
 
 /*PAGE MAIN CONTENT*/
 
@@ -185,3 +191,22 @@ h3 {
 }
 
 /*WEATHER BLOCK*/
+
+
+
+
+
+
+
+
+
+/*Small screen rules*/
+@media only screen and (max-width: 299px) {
+    .actionButton {
+        padding: 5px;
+    }
+
+    #contactBlock {
+        top: -18px;
+    }
+}

@@ -9,7 +9,31 @@
         max-width: 70%;
     }
 
+    nav {
+        display: flex;
+        padding: 5px;
+        justify-content: space-around;
 
+
+    }
+
+    nav a {
+        display: flex;
+    }
+
+    #menu {
+        display: none;
+    }
+
+
+
+}
+
+@media screen and (min-width: 1000px) {
+    #logo {
+        margin-left: 100px;
+        width: 200px;
+    }
 }
 
 
@@ -17,6 +41,19 @@
 
     #logo {
         margin-left: 150px;
-        width: 250;
+        width: 250px;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    nav a {
+        display: flex;
+    }
+
+    #menu {
+        display: none;
     }
 }
