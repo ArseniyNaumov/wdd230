@@ -18,9 +18,20 @@ document.addEventListener('DOMContentLoaded', function () {
 
             vehicleSelect.addEventListener('change', function () {
                 const selectedOption = this.value;
+                const imageLinks = {
+                    "1": "../images/item1.webp",
+                    "2": "../images/item2.webp",
+                    "3": "../images/item3.webp",
+                    "4": "../images/item4.webp",
+                    "5": "../images/item5.webp",
+                    "6": "../images/item6.webp",
+                };
+                if (selectedOption in imageLinks) {
+                    vehicleImage.src = imageLinks[selectedOption];
+                }
                 const selectedVehicle = data.find(vehicle => vehicle['option#'] === selectedOption);
                 if (selectedVehicle) {
-                    vehicleImage.src = selectedVehicle.image;
+                    /*vehicleImage.src = selectedVehicle.image;    THIS LINE REFUSED TO WORK*/
                     reservationHalfDay.textContent = selectedVehicle.reservation[0].halfDay;
                     reservationFullDay.textContent = selectedVehicle.reservation[0].fullDay;
                     walkInHalfDay.textContent = selectedVehicle.walkIn[0].halfDay;
