@@ -2,7 +2,7 @@
 
     #logo {
         margin-left: 50px;
-        width: 150px;
+        width: 170px;
     }
 
     #contactBlock {
@@ -32,7 +32,7 @@
 @media screen and (min-width: 1000px) {
     #logo {
         margin-left: 100px;
-        width: 200px;
+        width: 230px;
     }
 }
 
@@ -41,7 +41,7 @@
 
     #logo {
         margin-left: 150px;
-        width: 250px;
+        width: 270px;
     }
 
     nav {
