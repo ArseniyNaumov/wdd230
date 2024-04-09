@@ -1,0 +1,110 @@
+[
+    {
+        "option#": "1",
+        "make&Model": "Honda Metro Scooter",
+        "seatCapacity": "1",
+        "image": "field.jpg",
+        "reservation": [
+            {
+                "halfDay": "$20",
+                "fullDay": "$30"
+            }
+        ],
+        "walkIn": [
+            {
+                "halfDay": "$25",
+                "fullDay": "$35"
+            }
+        ]
+    },
+    {
+        "option#": "2",
+        "make&Model": "Honda Dio Scooter",
+        "seatCapacity": "2",
+        "image": "field.jpg",
+        "reservation": [
+            {
+                "halfDay": "$30",
+                "fullDay": "$40"
+            }
+        ],
+        "walkIn": [
+            {
+                "halfDay": "$35",
+                "fullDay": "$45"
+            }
+        ]
+    },
+    {
+        "option#": "3",
+        "make&Model": "Honda PCX150 Scooter",
+        "seatCapacity": "2",
+        "image": "field.jpg",
+        "reservation": [
+            {
+                "halfDay": "$40",
+                "fullDay": "$50"
+            }
+        ],
+        "walkIn": [
+            {
+                "halfDay": "$45",
+                "fullDay": "$55"
+            }
+        ]
+    },
+    {
+        "option#": "4",
+        "make&Model": "Honda Pioneer ATV",
+        "seatCapacity": "4",
+        "image": "field.jpg",
+        "reservation": [
+            {
+                "halfDay": "$50",
+                "fullDay": "$70"
+            }
+        ],
+        "walkIn": [
+            {
+                "halfDay": "$60",
+                "fullDay": "$80"
+            }
+        ]
+    },
+    {
+        "option#": "5",
+        "make&Model": "Jeep Wrangler - 4 door with A/C",
+        "seatCapacity": "5",
+        "image": "field.jpg",
+        "reservation": [
+            {
+                "halfDay": "$70",
+                "fullDay": "$100"
+            }
+        ],
+        "walkIn": [
+            {
+                "halfDay": "$85",
+                "fullDay": "$125"
+            }
+        ]
+    },
+    {
+        "option#": "6",
+        "make&Model": "Jeep Wrangler - 2 door",
+        "seatCapacity": "4",
+        "image": "field.jpg",
+        "reservation": [
+            {
+                "halfDay": "$60",
+                "fullDay": "$85"
+            }
+        ],
+        "walkIn": [
+            {
+                "halfDay": "$70",
+                "fullDay": "$90"
+            }
+        ]
+    }
+]
