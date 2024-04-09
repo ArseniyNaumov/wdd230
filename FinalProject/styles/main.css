@@ -12,11 +12,54 @@ body {
 }
 
 header {
-    height: 120px;
+    height: 200px;
     display: flex;
     align-items: flex-end;
     margin-bottom: 5px;
 }
+
+/*HEAT WARNING*/
+
+#message {
+    position: fixed;
+    top: 2%;
+    left: 15%;
+    width: 70%;
+    height: auto;
+    padding: 10px;
+    background-color: var(--accent-color);
+    color: var(--background-color);
+    font-weight: bold;
+    text-align: center;
+    border-radius: 7px;
+    z-index: 9999;
+}
+
+#black {
+    color: var(--secondary-color);
+}
+
+.visible {
+    display: flex;
+}
+
+.hidden {
+    display: none;
+}
+
+#closeButton {
+    content: "✖";
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+/*LOGO*/
 
 #logo {
     width: 120px;
@@ -47,10 +90,14 @@ nav {
 
 #menu::before {
     content: "☰";
+    color: var(--background-color);
+    font-weight: bold;
 }
 
 #menu.open::before {
     content: "✖";
+    color: var(--background-color);
+    font-weight: bold;
 }
 
 
@@ -69,9 +116,7 @@ nav a {
     cursor: pointer;
 }
 
-/*HAMBURGER MENU ENDS*/
-
-
+/*PAGE MAIN CONTENT*/
 
 main {
     display: flex;
@@ -139,3 +184,5 @@ h3 {
     text-align: center;
     margin-bottom: 20px;
 }
+
+/*WEATHER BLOCK*/
