@@ -41,7 +41,8 @@ header {
     color: var(--secondary-color);
 }
 
-#yellow {
+#yellow,
+#degreeValue {
     color: yellow;
 }
 
