@@ -262,8 +262,6 @@ h2 {
 
 /*RENTALS PAGE CSS additions*/
 
-
-
 #vehicleSelect {
     margin-top: 30px;
     font-family: "Rubik", sans-serif;
@@ -289,9 +287,7 @@ h2 {
     padding: 10px 10px;
     border-radius: 7px;
     bottom: 10px;
-    /* Adjust as needed */
     left: 10px;
-    /* Adjust as needed */
 }
 
 .lowerText,
@@ -318,9 +314,70 @@ h2 {
     margin: 20px;
 }
 
+/*RESERVATION PAGE CSS additions*/
+
+ul {
+    list-style-type: disc;
+    padding: 0px 12px 0px 12px;
+    margin-left: 30px;
+}
+
+.form-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-family: "Rubik", sans-serif;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    padding: 8px;
+    border: 1px solid var(--accent-color);
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-family: "Rubik", sans-serif;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.form-group input[type="submit"] {
+    cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #45a049;
+}
 
 
+@media screen and (max-width: 645px) {
+    .form-container {
+        grid-template-columns: 1fr;
+    }
 
+    .form-group {
+        margin-right: 20px;
+    }
+
+    #shiftHead,
+    #rentForm {
+        margin-left: 20px;
+    }
+}
 
 
 /*Small screen rules*/
