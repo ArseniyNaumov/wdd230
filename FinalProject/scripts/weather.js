@@ -42,7 +42,7 @@ async function displayWeather() {
         <p>Temperature: ${currentTemperature}°F</p>
         <p>Humidity: ${currentHumidity}%</p>
         <p>Description: ${weatherData.weather[0].description}</p>
-        <img class="weather-icon" src="http://openweathermap.org/img/wn/${weatherData.weather[0].icon}.png" alt="Weather Icon">
+        <img class="weather-icon" src="https://openweathermap.org/img/wn/${weatherData.weather[0].icon}.png" alt="Weather Icon">
         <h2>Weather for Tomorrow</h2>
         <p>Temperature: ${NextDayTemperature}°F</p>`;
     weatherBlock.appendChild(weatherInfo);
