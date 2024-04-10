@@ -30,7 +30,8 @@ header {
     background-color: var(--accent-color);
     color: var(--background-color);
     font-weight: bold;
-    font-size: 15px;
+    font-size: 18px;
+    letter-spacing: 0.5px;
     text-align: center;
     border-radius: 7px;
     z-index: 9999;
@@ -38,6 +39,10 @@ header {
 
 #black {
     color: var(--secondary-color);
+}
+
+#yellow {
+    color: yellow;
 }
 
 .visible {
