@@ -360,7 +360,7 @@ ul {
 }
 
 .form-group input[type="submit"]:hover {
-    background-color: #45a049;
+    background-color: #ff3c01;
 }
 
 
@@ -379,6 +379,21 @@ ul {
     }
 }
 
+/*CONTACT PAGE adjustments*/
+#map {
+    width: 100%;
+    height: calc(100vw / 1.5);
+}
+
+.centered {
+    text-align: center;
+    margin: 0;
+
+}
+
+#contactForm {
+    width: 90%;
+}
 
 /*Small screen rules*/
 @media only screen and (max-width: 299px) {
@@ -398,9 +413,13 @@ ul {
     .flex {
         font-size: smaller;
     }
+
+    #contactForm {
+        width: 100%;
+    }
 }
 
-@media only screen and (max-width: 25px) {
+@media only screen and (max-width: 125px) {
     .flex {
         font-size: smaller;
     }

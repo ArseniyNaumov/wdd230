@@ -18,7 +18,9 @@
     <link rel=" stylesheet" href="styles/main.css">
     <link rel=" stylesheet" href="styles/wide.css">
     <script src="scripts/hamMenu.js" defer></script>
-    <!--<script src="scripts/weather.js" defer></script>-->
+    <script src="scripts/map.js" defer></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6YSB6z6DjNoysf1-3Q63oTDPUZlg7E9I&callback=initMap"></script>
     <link rel="icon" href="images/logo.ico">
 </head>
 
@@ -34,12 +36,41 @@
         <a href="contact.html" target="_blank">Contact</a>
     </nav>
     <main>
-
-
-
-
-
-
+        <div id="map">
+        </div>
+        <div id="contactBlock">
+            <h2 class="centered">FIND US</h2>
+            <h3>Our locations:</h3>
+            <p id="address"><a href="https://maps.app.goo.gl/TXNKmLGqFEijXFpbA">Av. Rafael E. Melgar
+                    1662</a><br>Near the Playa del Carmen-Cozumel Ferry dock<br>in el
+                Centro de
+                Cozumel
+            </p>
+            <p id="address2"><a href="https://maps.app.goo.gl/dNJirFTXkNeyqExb9">Av. Rafael E. Melgar km 4.5,
+                    77675</a><br>near the Terminal Puerta Maya
+            </p>
+            <h3>Call / Text to us: </h3>
+            <p id="tel">+52-987-500-9700<br>
+                Manuel Perez</p>
+        </div>
+        <div id="contactForm">
+            <h2 class="centered">CONTACT US</h2>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="comment">Comment:</label>
+                <textarea id="comment" name="comment" rows="4" required></textarea>
+            </div>
+            <div class="centered" class="form-group">
+                <input type="submit" class="actionButton" value=" SEND MESSAGE">
+            </div>
+        </div>
     </main>
     <footer>
         <div id="socialMedia">
