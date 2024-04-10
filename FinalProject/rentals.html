@@ -35,17 +35,23 @@
     </nav>
     <main>
         <select id="vehicleSelect"></select>
-        <img id="vehicleImage" alt="Vehicle Image">
-        <div>
-            <h3>Reservation prices</h3>
-            <p>for Half Day (3 hrs): <span id="reservationHalfDay"></span></p>
-            <p>Full Day: <span id="reservationFullDay"></span></p>
+        <div class="image-container">
+            <img id="vehicleImage" alt="Vehicle Image">
+            <div id="seatCap">7 seats</div>
         </div>
-        <div>
-            <h3>Regular walk-In prices</h3>
-            <p>for Half Day (3 hrs): <span id="walkInHalfDay"></span></p>
-            <p>Full Day: <span id="walkInFullDay"></span></p>
-        </div>
+        <section class="flex">
+            <div class="left">
+                <h3 class="left">Reservation prices</h3>
+                <p class="narText">for Half Day (3 hrs): <span id="reservationHalfDay"></span></p>
+                <p class="lowerText">Full Day: <span id="reservationFullDay"></span></p>
+            </div>
+            <div class="right">
+                <h3 class="right">Regular walk-In prices</h3>
+                <p class="narText">for Half Day (3 hrs): <span id="walkInHalfDay"></span></p>
+                <p class="lowerText">Full Day: <span id="walkInFullDay"></span></p>
+            </div>
+        </section>
+        <button class="actionButton" onclick="window.open('rentals.html', '_blank')">RESERVE NOW</button>
     </main>
     <footer>
         <div id="socialMedia">

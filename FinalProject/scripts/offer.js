@@ -4,6 +4,7 @@ const reservationHalfDay = document.getElementById('reservationHalfDay');
 const reservationFullDay = document.getElementById('reservationFullDay');
 const walkInHalfDay = document.getElementById('walkInHalfDay');
 const walkInFullDay = document.getElementById('walkInFullDay');
+const seat = document.getElementById('seatCap');
 
 fetch('data/prices.json')
     .then(response => response.json())
@@ -24,6 +25,11 @@ fetch('data/prices.json')
                 reservationFullDay.textContent = selectedVehicle.reservation[0].fullDay;
                 walkInHalfDay.textContent = selectedVehicle.walkIn[0].halfDay;
                 walkInFullDay.textContent = selectedVehicle.walkIn[0].fullDay;
+
+                if (selectedVehicle.seatCapacity > 1) {
+                    seat.textContent = selectedVehicle.seatCapacity[0] + ' seats';
+                }
+                else { seat.textContent = '1 seat'; }
             }
         });
 
