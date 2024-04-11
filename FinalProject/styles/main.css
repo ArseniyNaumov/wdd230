@@ -241,8 +241,6 @@ h2 {
     background-color: #ffffff;
     border: 1px solid var(--primary-color);
     border-radius: 7px;
-    filter: contrast(180%);
-    filter: brightness(90%);
 }
 
 .weather-info {
@@ -264,6 +262,12 @@ h2 {
     width: 40px;
     height: 40px;
     margin: 0 20px;
+}
+
+.createdBy {
+    font-size: 10px;
+    width: 100%;
+    text-align: center;
 }
 
 /*RENTALS PAGE CSS additions*/
