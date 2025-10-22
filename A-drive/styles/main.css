@@ -46,13 +46,28 @@ header {
 
 }
 
-#compSlogan {
+#compSlogan, #call, #phoneNum {
   text-align: center;
   margin: 1rem 15%; /* same left and right margins */
   font-size: clamp(1.8rem, 1vw + 0.5rem, 2rem); /* grows with screen size */
   font-weight: bold
 }
 
+#call,
+#phoneNum {
+  width: 100vw;  
+  background-color: #495047;  /* фон блоков */
+  color: var(--background-color); 
+  text-align: center;
+  padding: 5px 0;               /* вертикальные отступы */
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  margin: 0;                     /* убираем щели между блоками */
+  border-radius: 0;              /* без скруглений, чтобы не было зазора */
+  box-sizing: border-box;        /* учитываем любые паддинги */
+}
+
+#phoneNum {}
 
 
 /* HAMBURGER MENU*/
@@ -72,6 +87,7 @@ header {
 #menu::before {
     content: "☰";
     color: var(--background-color);
+    background-color: var(--secondary-color);
 }
 
 #menu.open::before {
@@ -210,4 +226,4 @@ main
   align-items: center;       /* center horizontally */
   justify-content: flex-start; /* content on top */
   box-sizing: border-box;
-}
+ }
