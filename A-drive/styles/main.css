@@ -1,7 +1,7 @@
 :root {
     /* color schema */
     --primary-color: #000000;
-    --secondary-color: #2c2c2c;
+    --secondary-color: #393b3eff;
     --accent-color: #13c403;
     --background-color: #ffffff;
 }
@@ -56,23 +56,19 @@ header {
 #call,
 #phoneNum {
   width: 100vw;  
-  background-color: #495047;  /* background of blocks*/
+  background-color: rgb(90, 97, 93);  /* background of blocks*/
   color: var(--background-color); 
   text-align: center;
   padding: 5px 0;               /* vertical margins */
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Economica', sans-serif;
   font-weight: bold;
   margin: 0;                     /* no gaps between blocks */
   border-radius: 0;              /* no roundings */
   box-sizing: border-box;        /* all paddings accounted for */
 }
 
-#phoneNum {}
 
-
-/* HAMBURGER MENU*/
-
-
+/* HAMBURGER MENU */
 #menu {
     font-size: 1.5rem;
     border: 0;
@@ -209,7 +205,8 @@ main
   display: none;
 }
 
-/* When TEXT BOX */
+/* TEXT BOXES */
+
 
 #when,
 #why
@@ -218,7 +215,7 @@ main
   padding: 20px;
   border: 8px solid #d1d1d1;
   border-radius: 10px;
-  font-weight: 900;
+  font-weight: 600;
   font-family: 'Oswald', sans-serif;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
   display: flex;
@@ -228,19 +225,27 @@ main
   box-sizing: border-box;
  }
 
+ .text
+ {font-family: 'Oswald', sans-serif;
+  line-height: 2.5; /* 1.5 times the font size */
+}
+
+ 
  /* FOOTER */
+
+ h1 {font-family: 'Economica', sans-serif;}
+
 
 footer {
   width: 100%;
-  padding: 40px 20px;
+  padding: 10px 20px 40px 20px;
   background-color: #393b3eff;
-  color: var(--background-color);
+  color: #fff; /* white text for the footer */
   text-align: center;
   font-family: 'Oswald', sans-serif;
   font-weight: bold;
   box-sizing: border-box;
-  word-wrap: break-word;
-  overflow-wrap: break-word;}
+}
 
   #payments {
   display: flex;               /* flex container */
@@ -250,19 +255,28 @@ footer {
   padding: 20px;
 }
 
-#payments a {
-  display: block;              /* make link a block for padding/margins */
-  flex: 0 1 100px;             /* each icon has a base width of 100px, can shrink */
-  text-align: center;
+.payment-item {
+  display: flex;
+  flex-direction: column;      /* stack image and label vertically */
+  align-items: center;         /* center image and label */
+  flex: 0 1 100px;             /* base width of each item */
 }
 
-#payments img {
-  width: 80px;                 /* all images same size */
-  height: auto;                /* maintain aspect ratio */
+.payment-item img {
+  width: 80px;
+  height: auto;
   display: block;
-  transition: transform 0.2s;  /* small hover effect */
+  transition: transform 0.2s;
 }
 
-#payments img:hover {
-  transform: scale(1.1);       /* grow slightly on hover */
+.payment-item img:hover {
+  transform: scale(1.1);
+}
+
+.payment-item span {
+  margin-top: 5px;
+  font-size: 18px;
+  color: #ffffff;              /* white label */
+  text-align: center;
+  font-weight: lighter;
 }
