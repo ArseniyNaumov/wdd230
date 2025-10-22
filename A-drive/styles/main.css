@@ -56,15 +56,15 @@ header {
 #call,
 #phoneNum {
   width: 100vw;  
-  background-color: #495047;  /* фон блоков */
+  background-color: #495047;  /* background of blocks*/
   color: var(--background-color); 
   text-align: center;
-  padding: 5px 0;               /* вертикальные отступы */
+  padding: 5px 0;               /* vertical margins */
   font-family: 'Oswald', sans-serif;
   font-weight: bold;
-  margin: 0;                     /* убираем щели между блоками */
-  border-radius: 0;              /* без скруглений, чтобы не было зазора */
-  box-sizing: border-box;        /* учитываем любые паддинги */
+  margin: 0;                     /* no gaps between blocks */
+  border-radius: 0;              /* no roundings */
+  box-sizing: border-box;        /* all paddings accounted for */
 }
 
 #phoneNum {}
@@ -139,15 +139,15 @@ main
 /* REQUEST FORM */
 
 #requestForm {
-  max-width: 600px;      /* примерно половина контейнера */
-  margin: 0;             /* убираем 20% */
+  max-width: 600px;      /* half a container */
+  margin: 0;             /* reducing 20% */
   padding: 18px;
   border: 8px solid #d1d1d1;
   border-radius: 10px;
   font-weight: 900;
   font-family: 'Oswald', sans-serif;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  flex: 1 1 300px;       /* позволяет растягиваться и сжиматься */
+  flex: 1 1 300px;       /* alows to stretch */
   display: flex;
   flex-direction: column;
 }
