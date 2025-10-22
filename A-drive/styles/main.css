@@ -1,5 +1,5 @@
 :root {
-    /* color schema */
+    
     --primary-color: #000000;
     --secondary-color: #393b3eff;
     --accent-color: #13c403;
@@ -17,7 +17,8 @@ body {
 :lang(uk) 
     {font-family: 'Oswald', sans-serif;}
 
- /* UPPER PART OF THE WEBSITE*/   
+ /* UPPER PART OF THE WEBSITE*/ 
+
 header {
   width: 100%;
   margin: 0;
@@ -28,10 +29,10 @@ header {
 
 .top-header {
   display: flex;
-  justify-content: left; /* space elements horizontally */
+  justify-content: left;     /* space elements horizontally */
   align-items: center;
-  margin: 20px 10%; /* 15% margins on left and right */
-  gap: 3%; /* 10% of container width between logo and text */
+  margin: 20px 10%;         /* 10% margins on left and right */
+  gap: 3%;                 /* 3% of container width between logo and text */
 }
 
 #logo {
@@ -48,7 +49,7 @@ header {
 
 #compSlogan, #call, #phoneNum {
   text-align: center;
-  margin: 1rem 15%; /* same left and right margins */
+  margin: 1rem 15%;              /* same left and right margins */
   font-size: clamp(1.8rem, 1vw + 0.5rem, 2rem); /* grows with screen size */
   font-weight: bold
 }
@@ -125,9 +126,9 @@ nav a:hover {
 /* MAIN as flexbox container*/
 
 main 
-{ display: flex;  /* Enableingflexbox */
-  flex-wrap: wrap; /* Allow transfer if not enought width */
-  gap: 20px; /* gap */
+{ display: flex;            /* Enableingflexbox */
+  flex-wrap: wrap;           /* Allow transfer if not enought width */
+  gap: 20px;                 /* gap */
   padding: 20px;
   align-items: stretch;
 }
@@ -135,15 +136,15 @@ main
 /* REQUEST FORM */
 
 #requestForm {
-  max-width: 600px;      /* half a container */
-  margin: 0;             /* reducing 20% */
+  max-width: 600px;                /* half a container */
+  margin: 0;                      
   padding: 18px;
   border: 8px solid #d1d1d1;
   border-radius: 10px;
   font-weight: 600;
   font-family: sans-serif;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  flex: 1 1 300px;       /* alows to stretch */
+  flex: 1 1 300px;                /* alows to stretch */
   display: flex;
   flex-direction: column;
 }
@@ -221,14 +222,14 @@ main
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
   display: flex;
   flex-direction: column;
-  align-items: center;       /* center horizontally */
-  justify-content: flex-start; /* content on top */
+  align-items: center;               /* center horizontally */
+  justify-content: flex-start;       /* content on top */
   box-sizing: border-box;
  }
 
  .text
  {font-family: sans-serif;
-  line-height: 2.5; /* 1.5 times the font size */
+  line-height: 2.5;              /* 1.5 times the font size */
 }
 
  
@@ -241,7 +242,7 @@ footer {
   width: 100%;
   padding: 10px 20px 40px 20px;
   background-color: #393b3eff;
-  color: #fff; /* white text for the footer */
+  color: #fff;                /* white text for the footer */
   text-align: center;
   font-family: 'Oswald', sans-serif;
   font-weight: bold;
