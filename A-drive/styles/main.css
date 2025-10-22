@@ -227,3 +227,42 @@ main
   justify-content: flex-start; /* content on top */
   box-sizing: border-box;
  }
+
+ /* FOOTER */
+
+footer {
+  width: 100%;
+  padding: 40px 20px;
+  background-color: #393b3eff;
+  color: var(--background-color);
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  overflow-wrap: break-word;}
+
+  #payments {
+  display: flex;               /* flex container */
+  flex-wrap: wrap;             /* allow wrapping on narrow screens */
+  justify-content: center;     /* center all icons */
+  gap: 15px;                   /* space between icons */
+  padding: 20px;
+}
+
+#payments a {
+  display: block;              /* make link a block for padding/margins */
+  flex: 0 1 100px;             /* each icon has a base width of 100px, can shrink */
+  text-align: center;
+}
+
+#payments img {
+  width: 80px;                 /* all images same size */
+  height: auto;                /* maintain aspect ratio */
+  display: block;
+  transition: transform 0.2s;  /* small hover effect */
+}
+
+#payments img:hover {
+  transform: scale(1.1);       /* grow slightly on hover */
+}
