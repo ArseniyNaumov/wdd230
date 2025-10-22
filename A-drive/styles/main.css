@@ -6,13 +6,16 @@
     --background-color: #ffffff;
 }
 
-
-
 body {
-    font-family: 'Economica', 'Oswald', sans-serif;
     font-weight: bold;
     margin: 0;
+    font-family: 'Economica', sans-serif;
+    
 }
+
+:lang(ru),
+:lang(uk) 
+    {font-family: 'Oswald', sans-serif;}
 
 header {
   width: 100%;
@@ -99,4 +102,74 @@ nav a {
 
 nav a:hover {
     color: var(--accent-color);
+}
+
+/* CSS of the REQUEST FORM */
+
+#requestForm {
+  max-width: 420px;
+  margin: 20px auto;
+  padding: 18px;
+  border: 1px solid var(--secondary-color);
+  border-radius: 10px;
+  font-weight: 800;
+  
+  font-family: 'Oswald', sans-serif;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+#requestForm h2 {
+  margin-bottom: 16px;
+  font-size: 20px;
+  color: var(--secondary-color);
+  text-align: center;
+}
+
+#requestForm form label {
+  display: block;
+  font-size: 13px;
+  margin-bottom: 10px;
+  color: var(--secondary-color);
+}
+
+#requestForm input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px;
+  margin-top: 6px;
+  border: 1px solid #aaaaaa;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: border-color 0.2s;
+}
+
+#requestForm input:focus {
+  border-color: var(--accent-color);
+  outline: none;
+}
+
+#requestForm button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--accent-color);
+  color: var(--primary-color);
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.2s;
+}
+
+#requestForm button:hover {
+  background-color: #13c403;
+}
+
+.form-message {
+  font-size: 13px;
+  color: var(--secondary-color);
+  margin-top: 10px;
+  text-align: center;
+  display: none;
 }

@@ -29,6 +29,7 @@
     
     <!-- SCRIPTS-->
     <script src="scripts/hamMenu.js" defer></script> <!-- Loads the hamburger menu script after the page loads -->
+    <script src="scripts/requestForm.js" defer></script><!-- Loads the script that sends info to Whatsapp -->
 </head>
 
 <body>
@@ -46,11 +47,37 @@
         <a href="indexUKR.html">UKR</a>
     </nav>
     <main>
-
-
-
-
-
+        <div id="requestForm">
+            <h2>Book a trip!</h2>
+            <form id="tripForm" autocomplete="off" novalidate>
+                <label>
+                    Date
+                    <input id="date" name="date" type="date" required>
+                </label>
+                <label>
+                    Time I should arrive
+                    <input id="time" name="time" type="time" required>
+                </label>
+                <label>
+                    Start address
+                    <input id="start" name="start" type="text" placeholder="Enter start address" required>
+                </label>
+                <label>
+                    End address
+                    <input id="end" name="end" type="text" placeholder="Enter end address" required>
+                </label>
+                <label>
+                    Your name
+                    <input id="name" name="name" type="text" placeholder="Your name" required>
+                </label>
+                <label>
+                    Your phone number
+                    <input id="phone" name="phone" type="tel" placeholder="+1 555 123 4567" required>
+                </label>
+                <button type="submit">Send</button>
+            </form>
+            <p id="formMessage" class="form-message"></p>
+        </div>
     </main>   
     </body>
 </html>
