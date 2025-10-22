@@ -30,7 +30,7 @@ header {
   display: flex;
   justify-content: left; /* space elements horizontally */
   align-items: center;
-  margin: 0 10%; /* 15% margins on left and right */
+  margin: 20px 10%; /* 15% margins on left and right */
   gap: 3%; /* 10% of container width between logo and text */
 }
 
@@ -149,8 +149,9 @@ main
 }
 
 #requestForm h2 {
-  margin-bottom: 16px;
-  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 25px;
+  font-size: 25px;
   color: var(--secondary-color);
   text-align: center;
 }
@@ -194,7 +195,7 @@ main
 
 #requestForm button:hover {
   background-color: #13c403;
-  font-size: 40px;
+  font-size: 25px;
 }
 
 .form-message {
@@ -245,6 +246,7 @@ footer {
   font-family: 'Oswald', sans-serif;
   font-weight: bold;
   box-sizing: border-box;
+  padding-bottom: 0px;
 }
 
   #payments {
@@ -279,4 +281,12 @@ footer {
   color: #ffffff;              /* white label */
   text-align: center;
   font-weight: lighter;
+}
+
+#createdBy {
+  margin-top: 40px;
+  margin-bottom: 
+  0px;
+  font-weight: 200;
+  
 }
