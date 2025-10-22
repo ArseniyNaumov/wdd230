@@ -1,0 +1,9 @@
+@media (max-width: 900px) {
+  main {
+    flex-direction: column;
+  }
+
+  #requestForm, #when {
+    max-width: 100%;
+  }
+}
