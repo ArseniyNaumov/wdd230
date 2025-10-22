@@ -22,24 +22,28 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Improves font loading performance -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- Preconnects to Google Fonts static content -->
     <link href="https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> <!-- Imports the Economica font -->
+    <link href="https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=Oswald:wght@200..700&display=swap" rel="stylesheet"> <!-- Imports the Oswald font -->
     <!-- RESPONSIVENESS-->
-    <link rel="stylesheet" href="styles/main.css"> <!-- Main stylesheet -->
-    <link rel="stylesheet" href="styles/wide.css"> <!-- Additional or responsive stylesheet -->
+    <link rel="stylesheet" href="styles/main.css"><!-- Main stylesheet -->
+    <link rel="stylesheet" href="styles/wide.css"><!-- Additional or responsive stylesheet -->
+    
     <!-- SCRIPTS-->
     <script src="scripts/hamMenu.js" defer></script> <!-- Loads the hamburger menu script after the page loads -->
 </head>
 
 <body>
     <header>
-        <div>A-drive</div>
-        <div>Your reliable driver in Houston</div>
-        <img id="logo" src="images/Logo.jpg" alt="main A-drive logo with letter A and stylisized road">
+    <div class="top-header">
+        <img id="logo" src="images/Logo.jpg" alt="main A-drive logo with letter A and stylized road">
+        <div id="logoText">A-drive</div>
+    </div>
+    <div id="compSlogan">Your reliable driver in Houston</div>
     </header>
     <nav class="navigation">
         <button id="menu"></button>
-        <a href="indexENG.html">English</a>
-        <a href="indexRUS.html">Russian</a>
-        <a href="indexUKR.html">Ukrainian</a>
+        <a href="indexENG.html">ENG</a>
+        <a href="indexRUS.html">RUS</a>
+        <a href="indexUKR.html">UKR</a>
     </nav>
     <main>
 
