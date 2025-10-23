@@ -262,7 +262,8 @@ footer {
   display: flex;
   flex-direction: column;      /* stack image and label vertically */
   align-items: center;         /* center image and label */
-  flex: 0 1 100px;             /* base width of each item */
+  flex: 0 1 100px;          /* base width of each item */
+  flex-shrink: 0;           
 }
 
 .payment-item img {
@@ -270,6 +271,8 @@ footer {
   height: auto;
   display: block;
   transition: transform 0.2s;
+  min-width: 50px;
+  width: 15vw;
 }
 
 .payment-item img:hover {
