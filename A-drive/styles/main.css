@@ -270,8 +270,8 @@ footer {
   height: auto;
   display: block;
   transition: transform 0.2s;
-  min-width: 10px;
-  width: 5vw;
+  min-width: 20px;
+  max-width: 55px;
 }
 
 .payment-item img:hover {
