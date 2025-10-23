@@ -267,12 +267,11 @@ footer {
 }
 
 .payment-item img {
-  width: 80px;
   height: auto;
   display: block;
   transition: transform 0.2s;
-  min-width: 50px;
-  width: 15vw;
+  min-width: 10px;
+  width: 5vw;
 }
 
 .payment-item img:hover {
