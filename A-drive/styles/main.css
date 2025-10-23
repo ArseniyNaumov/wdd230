@@ -250,41 +250,21 @@ footer {
   padding-bottom: 0px;
 }
 
-  #payments {
-  display: flex;               /* flex container */
-  flex-wrap: wrap;             /* allow wrapping on narrow screens */
-  justify-content: center;     /* center all icons */
-  gap: 15px;                   /* space between icons */
-  padding: 20px;
+#payment {
+  display: flex;              /* enables flex centering */
+  justify-content: center;    /* horizontally center image */
+  align-items: center;        /* vertically center if needed */
+  padding: 30px 0;            /* small spacing */
 }
 
-.payment-item {
-  display: flex;
-  flex-direction: column;      /* stack image and label vertically */
-  align-items: center;         /* center image and label */
-  flex: 0 1 100px;          /* base width of each item */
-  flex-shrink: 0;           
-}
-
-.payment-item img {
-  height: auto;
-  display: block;
+#payment img {
+  max-width: 500px;            /* never larger than 800px */
+  width: 100%;                /* shrink on narrow screens */
+  height: auto;               /* preserve proportions */
   transition: transform 0.2s;
-  min-width: 20px;
-  max-width: 55px;
 }
 
-.payment-item img:hover {
-  transform: scale(1.1);
-}
 
-.payment-item span {
-  margin-top: 5px;
-  font-size: 18px;
-  color: #ffffff;              /* white text */
-  text-align: center;
-  font-weight: lighter;
-}
 
 #createdBy {
   margin-top: 40px;
