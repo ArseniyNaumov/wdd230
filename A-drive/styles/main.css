@@ -207,6 +207,18 @@ main
   display: none;
 }
 
+/* Temporary popup message */
+.form-message.show {
+  display: block;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.form-message.hide {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
 /* TEXT BOXES */
 
 
