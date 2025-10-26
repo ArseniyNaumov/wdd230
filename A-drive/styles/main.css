@@ -47,12 +47,14 @@ header {
 
 }
 
-#compSlogan, #call, #phoneNum {
+#compSlogan, #call, #phoneNum, #compSloganUa {
   text-align: center;
   margin: 1rem 15%;              /* same left and right margins */
   font-size: clamp(1.8rem, 1vw + 0.5rem, 2rem); /* grows with screen size */
   font-weight: bold
 }
+
+#compSloganUa {font-family: 'Oswald', sans-serif;}
 
 #call,
 #phoneNum {
@@ -67,6 +69,21 @@ header {
   border-radius: 0;              /* no roundings */
   box-sizing: border-box;        /* all paddings accounted for */
 }
+
+
+#callua, #phoneNumUa {
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  font-weight: 200;
+  width: 100vw;  
+  background-color: rgb(90, 97, 93);  /* background of blocks*/
+  color: var(--background-color); 
+  text-align: center;
+  padding: 5px 0;               /* vertical margins */
+  font-weight: bold;
+  margin: 0;                     /* no gaps between blocks */
+  border-radius: 0;              /* no roundings */
+  box-sizing: border-box;}
 
 
 /* HAMBURGER MENU */

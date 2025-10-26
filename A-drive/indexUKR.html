@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- META -->
+    <meta charset="UTF-8"> <!-- Sets character encoding to UTF-8 for all languages -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Makes page responsive on mobile devices -->
+    <meta name="description" content="послуги A-drive"> <!-- Short description for search engines -->
+    <meta name="author" content="Arseniy V. Naumov"> <!-- Author of the webpage -->
+    <meta property="og:title" content="послуги A-drive"> <!-- Title for social media sharing -->
+    <meta property="og:type" content="website"> <!-- Defines the Open Graph type -->
+    <meta property="og:url" content="https://arseniynaumov.github.io/wdd230/A-drive/indexUKR.html"> <!-- Canonical URL for sharing -->
+    <meta property="og:image" content="https://arseniynaumov.github.io/wdd230/A-drive/images/Logo.jpg"> <!-- Image used when shared on social media -->
+    <!-- BROWSER -->
+    <title>A-drive (UKR)</title> <!-- Browser tab title -->
+    <link rel="icon" type="image/png" href="images/favicon-96x96.png" sizes="96x96"> <!-- Favicon for browsers -->
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg"> <!-- Scalable vector favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico"> <!-- Legacy shortcut icon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png"> <!-- Icon for Apple devices -->
+    <link rel="manifest" href="images/site.webmanifest"> <!-- Web app manifest for PWA settings -->
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Improves font loading performance -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- Preconnects to Google Fonts static content -->
+    <link href="https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> <!-- Imports the Economica font -->
+    <link href="https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=Oswald:wght@200..700&display=swap" rel="stylesheet"> <!-- Imports the Oswald font -->
+    <!-- RESPONSIVENESS-->
+    <link rel="stylesheet" href="styles/main.css"><!-- Main stylesheet -->
+    <link rel="stylesheet" href="styles/wide.css"><!-- Additional or responsive stylesheet -->
+    
+    <!-- SCRIPTS-->
+    <script src="scripts/hamMenu.js" defer></script> <!-- Loads the hamburger menu script after the page loads -->
+    <script src="scripts/requestForm.js" defer></script><!-- Loads the script that sends info to Whatsapp -->
+</head>
+
+<body>
+    <header>
+    <div class="top-header">
+        <img id="logo" src="images/Logo.jpg" alt="main A-drive logo with letter A and stylized road">
+        <div id="logoText">A-drive</div>
+    </div>
+    <div id="compSloganUa">Ваш надійний водій в Г'юстоні</div>
+    <div id="callua">Дзвоніть або пишіть 24/7</div>
+    <div id="phoneNumUa">832-832-14-25</div>
+    </header>
+    <nav class="navigation">
+        <button id="menu"></button>
+        <a href="indexENG.html">ENG</a>
+        <a href="indexRUS.html">RUS</a>
+        <a href="indexUKR.html">UKR</a>
+    </nav>
+    <main>
+    <div id="requestForm">
+        <h2>Замовте поїздку через WhatsApp!</h2>
+        <form id="tripForm" autocomplete="off" novalidate>
+            <label>
+                Дата
+                <input id="date" name="date" type="date" required>
+            </label>
+            <label>
+                Час, коли я маю приїхати
+                <input id="time" name="time" type="time" required>
+            </label>
+            <label>
+                Початкова адреса
+                <input id="start" name="start" type="text" placeholder="Введіть адресу відправлення" required>
+            </label>
+            <label>
+                Кінцева адреса
+                <input id="end" name="end" type="text" placeholder="Введіть адресу призначення" required>
+            </label>
+            <label>
+                Ваше ім’я
+                <input id="name" name="name" type="text" placeholder="Введіть ім’я" required>
+            </label>
+            <label>
+                Ваш номер телефону
+                <input id="phone" name="phone" type="tel" placeholder="+1 555 123 4567" required>
+            </label>
+            <button type="submit">Н А Д І С Л А Т И</button>
+        </form>
+        <p id="formMessage" class="form-message"></p>
+    </div>
+
+    <div id="when">
+        <h2>Коли саме вам може знадобитися моя допомога?</h2>
+        <p class="text">
+            ✈️ Поїздки до/з аеропорту <span style="font-weight: normal;">(з допомогою з багажем)</span><br>
+            👨‍👩‍👧 Сім’ї з дітьми — <span style="font-weight: normal;">школа, садочок, гуртки або заходи</span><br>
+            🛠️ Якщо авто раптово зламалося — <span style="font-weight: normal;">підвезу, щоб ви не втратили день</span><br>
+            🏥 Поїздки до лікарні чи клініки <span style="font-weight: normal;">(особливо для людей похилого віку — можу зачекати, допоможу сісти/вийти)</span><br>
+            📦 Термінова доставка пакунків чи покупок <span style="font-weight: normal;">(з рук у руки, без поштових затримок)</span><br>
+            🏢 Для бізнесу — <span style="font-weight: normal;">доставка документів або перевезення працівників</span><br>
+            👵 Люди похилого віку — <span style="font-weight: normal;">походи до магазину, аптеки чи в гості</span><br>
+            🛒 Допомога з покупками чи невеликими переїздами<br>
+            🍾 Після вечірки — <span style="font-weight: normal;">безпечна поїздка додому</span>
+        </p>
+    </div>
+
+    <div id="why">
+        <h2>Чому саме зі мною зручно?</h2>
+        <p class="text">
+            🚙 Honda Pilot 2015 AWD — <span style="font-weight: normal;">чистий, комфортний і просторий (для сім’ї та багажу), регулярно обслуговується та поступово вдосконалюється</span><br>
+            🎶 В авто звучить сучасна українська музика<br>
+            🎭 Можу розповісти щось цікаве про театр або просто приємно поспілкуватися<br>
+            ⏱️ Пунктуальний — <span style="font-weight: normal;">завжди приїжджаю вчасно</span><br>
+            💧 У машині є вода, повербанк із різними дротами, аптечка, парасолька тощо<br>
+            🤝 Надійність — <span style="font-weight: normal;">ставлюся до ваших близьких, як до своїх</span><br>
+            🏡 Я місцевий — <span style="font-weight: normal;">завжди поруч</span><br>
+        </p>
+    </div>
+</main>
+
+<footer>
+    <h1>Приймаю будь-який зручний для вас<br> спосіб оплати!</h1>
+    <div id="payment">
+        <img src="images/2.jpg" alt="Готівка">
+    </div>
+    <div id="createdBy">
+        <span>Створено Арсенієм В. Наумовим, 2025</span>
+    </div>
+</footer>
+</body>
+</html>
